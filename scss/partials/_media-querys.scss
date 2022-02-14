@@ -1,0 +1,134 @@
+/*MEDIA QUERYS*/
+@media only screen and (max-width:1024px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 0;
+        .navbar{
+            .container-fluid{
+                .container-fluid__logo{
+                    margin: 20px;
+                    width: 100px;
+                }
+                .navbar-collapse{
+                    .navbar-nav {
+                        a {
+                        font-size: 16px;
+                        }
+                    }
+                }
+            
+            }
+        }
+    }
+
+
+    .novedades{
+        .novedades__div{
+            align-items: center;
+        }
+        .contenedor-novedades{
+            .contenedor-novedades__img{
+                width: 30%;
+                height: 30%;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    /*.main{
+        grid-column: 3/4; /*PRUEBA*/
+    
+    .header {
+        padding: 0;
+        align-items: center;
+        justify-content: space-between;
+        .navbar{
+            .container-fluid{
+                .container-fluid__a{
+                    width: 60%;
+                    .container-fluid__logo{
+                    width: 50%;
+                    }    
+                }
+                .navbar-collapse{
+                    .navbar{
+                        & li{
+                            a{
+                            padding: 0px;
+                            font-size: 16px;  
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .entrada{
+        width: 54vh;
+        .entrada__titulo {
+        font-size: 25px;
+        word-spacing: 5px;
+        margin: 10px;
+        }
+    }
+
+    .secciones{
+        .seccion-imagen {
+            margin: 10px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+                .seccion-imagen__img {
+                    margin-bottom: 5px;
+                    width: 75%;
+                }
+        }
+    }
+
+    .novedades {
+        margin: 10px;
+        padding: 10px;
+        &__div{
+            display: flex;
+            flex-direction: column;
+            .info{
+                .info__list{
+                    padding: 0px;
+                    margin: 0px;
+                }
+            }
+            .contenedor-novedades{
+                .contenedor-novedades__img{
+                    width: 45vh;
+                    height: 30%;
+                }
+            }
+        }
+    }
+
+    .atractivos__img {
+        width: 100%;
+        padding: 2px;
+    }
+
+    .footerNav{
+        .footerNav__logo{
+            width: 25%;
+        }
+        div{
+            a{
+                img{
+                    width: 30px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

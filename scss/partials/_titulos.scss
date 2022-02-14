@@ -1,0 +1,41 @@
+@import "../bases/variables";
+
+/*Titulos*/
+.entrada__titulo{
+    margin:30px;
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+    font-size: 50px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+h2{
+    margin: 20px;
+    padding: 10px;
+    color: $title-color;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+h3{
+    margin:12px;
+    color:$font-color;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4{
+    color:$font-color;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+
+@for $i from 1 through 4{
+    h#{$i} {
+        font-size: $i * 2;
+    }
+}

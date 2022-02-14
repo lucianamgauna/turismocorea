@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elegí donde alojarte en Corea del Sur">
+    <meta name="keywords" content="HOSPEDAJE, ALOJAMIENTO, SERVICIOS, ESTADÍA, TURISMO, RESERVAR, HOTELES, ALBERGUES, CASA">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!--BOOTSTRAP-->
+    <title>Alojamiento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style-sass.css"><!--CSS-->
+</head>
+<body>
+    <div class="grid">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a href="../index.html"><img class="container-fluid__logo" src="../assets/logopng.png" alt="logo de camino a corea" width="50%"></a>
+                    <button class="navbar-toggler navbar-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li><a class="nav-link mx-4 my-1" href="atractivos.html">Atractivos</a></li>
+                            <li><a class="nav-link mx-4 my-1" href="quevisitar.html">Qué visitar</a></li>
+                            <li><a class="nav-link active mx-4 my-1" aria-current="page" href="alojamiento.html">Alojamiento</a></li>
+                            <li><a class="nav-link mx-4 my-1" href="novedades.html">Novedades</a></li>
+                            <li><a class="nav-link mx-4 my-1" href="eventos.html">Eventos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <main class="main">
+        <section class="atractivos">
+            <h2>Alojamiento</h2>
+            <img class="" src="../assets/recepcion.jpeg" alt="imagen ilustrativa de recepción" width="100%">
+        </section>
+        <section class="m-5">
+            <h3>Tipos de Alojamiento</h3>
+            <h4>Hoteles</h4>
+                <p>Los hoteles son la primera opción para aquellas personas que viajan por primera vez. Encontraras diferentes rangos de precios y servicios para las necesidades de cada turista.</p></li>
+            <h4>Casa de Huéspedes</h4>
+                <p>Recomendado para quienes viajen por un largo tiempo y deseen hospedarse en la comodidad de una vivienda equipada para todos los gustos, donde la reserva se puede realizar con el huésped.</p>
+            <h4>Albergues</h4>
+                <p>Ideal para quienes viajan solos y/o como mochileros, además los precios suelen ser baratos a comparación de otros alojamientos. Cuenta con la particularidad de que en muchos de ellos se debe compartir habitación con otros turistas.</p>
+            </ul>
+        </section>
+        <section class="m-5">
+            <h3> Mejores lugares para hospedarse</h3>
+            <h4>Hongdae</h4>
+                <p>Ubicado en una zona centrica de Seúl, es un área comercial y punto de partida para diferentes atractivos turisticos. Si buscas un lugar cercano a los puntos más visitas, Hongdae es el tuyo.</p>
+            <h4>Itaewon</h4>
+                <p>Un distrito muy popular entre los jovenes y amantes de la gastronomía, es una zona donde las culturas se entrelazan. Aquí se concentran los bares, karaokes y diversión. Si deseas hospedarte en una casa de huéspedes, Itaewon te recibirá con sus anfitriones.</p>
+            <h4>Gangnam</h4>
+                <p>Es conocido por ser un area comercial con grandes marcas y además de ello, Gangnam cuenta con hoteles lujosos para una agradable estadia.</p>
+        </section>
+        <section class="novedades">
+            <p class="pSobreNosotros">Si tienes pensado viajar a Corea del Sur, aquí dejamos algunas opciones prácticas para tu estadia. <br> Además,desde Camino a Corea contamos con un equipo especializado en turismo para asesorarte durante tu planificación y viaje. Disponemos de una amplía cartilla y folletos con información sobre servicios y alojamientos que se ofrecen durante todo el año.
+                No dudes en dejar tu contacto para comunicarnos contigo a la brevedad.</p>
+                <!-- Botón -->
+            <button type="button" class="btn btn-secondary d-block m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Asesorarme
+            </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="footerNav">
+        <img class="footerNav__logo" src="../assets/logopng.png" alt="logo de camino a corea" width="300px" />
+        <div>
+            <a href=""><img src="../assets/instagramlogo.png" alt="Instagram" width="3%" /></a>
+            <a href=""><img src="../assets/twitterlogo.png" alt="Twitter" width=3%/></a>
+            <a href=""><img src="../assets/youtubelogo.png" alt="Youtube" width="3%" /></a>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
