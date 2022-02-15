@@ -16,7 +16,7 @@
     grid-column: 1/4;
 }
 
-/*Secciones*/
+/*SECCIONES*/
 .secciones{
     @include mg;
     display: flex;
@@ -27,14 +27,15 @@
         justify-content: space-around;
         .seccion-imagen__img{
             transition: transform 0.5s;
+            border-radius: 20px;
             &:hover{
-            transform: scale(1.2);
+            transform: scale(1.1);
             }   
         }
     }
 }
 
-
+/*SECCIÓN NOVEDADES*/
 .novedades{
     @include mg;
     padding: 10px;
@@ -92,7 +93,7 @@
     margin: 10px;
 }
 
-/*DOC ATRACTIVOS*/
+/*ATRACTIVOS*/
 .atractivos{
     @include section;
     .atractivos__div{
@@ -115,20 +116,20 @@
     text-align: center;
 }
 
-
+/*NOVEDADES*/
 .pagina-novedades{
     @include section;
-    .pagina-novedades__parrafo{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .pagina-novedades__imagen{
-        @include mg;
-        padding: 10px;
+    .pagina-novedades__div{
+        margin: 30px;
+        .pagina-novedades__parrafo{
+            font-size: 20px;
+            line-height: 30px;
+        }
     }
 }
 
 
+/*EVENTOS*/
 .eventos{
     margin: 30px;
     .eventos__h2{
