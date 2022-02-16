@@ -100,7 +100,7 @@ h4 {
         transform: scale(1.1); }
 
 /*SECCIÓN NOVEDADES*/
-.novedades {
+.novedades, .novedades--nuevo {
   margin: auto;
   width: 90%;
   padding: 10px;
@@ -190,6 +190,10 @@ h4 {
       font-size: 20px;
       line-height: 30px; }
 
+/*ALOJAMIENTO*/
+.novedades--nuevo {
+  margin-bottom: 30px; }
+
 /*EVENTOS*/
 .eventos {
   margin: 30px; }
@@ -273,9 +277,9 @@ h4 {
       width: 100px; }
     .header .navbar .container-fluid .navbar-collapse .navbar-nav a {
       font-size: 16px; }
-  .novedades .novedades__div {
+  .novedades .novedades__div, .novedades--nuevo .novedades__div {
     align-items: center; }
-  .novedades .contenedor-novedades .contenedor-novedades__img {
+  .novedades .contenedor-novedades .contenedor-novedades__img, .novedades--nuevo .contenedor-novedades .contenedor-novedades__img {
     width: 30%;
     height: 30%; } }
 
@@ -307,7 +311,7 @@ h4 {
     .secciones .seccion-imagen .seccion-imagen__img {
       margin-bottom: 5px;
       width: 75%; }
-  .novedades {
+  .novedades, .novedades--nuevo {
     margin: 10px;
     padding: 10px; }
     .novedades__div {

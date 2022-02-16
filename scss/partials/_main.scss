@@ -137,6 +137,11 @@
     }
 }
 
+/*ALOJAMIENTO*/
+.novedades--nuevo{
+    @extend.novedades;
+    margin-bottom: 30px;
+}
 
 /*EVENTOS*/
 .eventos{
