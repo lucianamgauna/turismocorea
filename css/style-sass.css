@@ -315,10 +315,13 @@ h4 {
       flex-direction: column; }
       .novedades__div .info .info__list {
         padding: 0px;
-        margin: 0px; }
-      .novedades__div .contenedor-novedades .contenedor-novedades__img {
-        width: 45vh;
-        height: 30%; }
+        margin: 8px; }
+      .novedades__div .contenedor-novedades {
+        width: 60%;
+        display: flex; }
+        .novedades__div .contenedor-novedades .contenedor-novedades__img {
+          width: 45vh;
+          height: 30%; }
   .atractivos__img {
     width: 100%;
     padding: 2px; }

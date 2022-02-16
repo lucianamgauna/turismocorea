@@ -101,10 +101,12 @@
             .info{
                 .info__list{
                     padding: 0px;
-                    margin: 0px;
+                    margin: 8px;
                 }
             }
             .contenedor-novedades{
+                width:60%;
+                display: flex;
                 .contenedor-novedades__img{
                     width: 45vh;
                     height: 30%;
