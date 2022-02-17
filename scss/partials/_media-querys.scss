@@ -31,10 +31,14 @@
         }
         .contenedor-novedades{
             .contenedor-novedades__img{
-                width: 30%;
+                width: 100%;
                 height: 30%;
             }
         }
+    }
+
+    .parrafo{
+        font-size: 18px;
     }
 }
 
@@ -113,10 +117,14 @@
             }
         }
     }
-
-    .atractivos__img {
+    .atractivos{
+        .atractivos__div{
+            width:90%;
+        }
+        .atractivos__img {
         width: 100%;
         padding: 2px;
+        }
     }
 
     .m-5{
@@ -130,7 +138,10 @@
             font-size: 18px;
         }
     }
-
+    
+    .btn-w{
+        width: 69%;
+    }
     .card-eventos{
         flex-direction: column-reverse;
         &__img{
