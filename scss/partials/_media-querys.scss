@@ -120,11 +120,27 @@
         padding: 2px;
     }
 
+    .m-5{
+        &__titulo{
+            font-size: 25px;
+        }
+        &__subtitulo{
+            font-size: 20px;
+        }
+        &__parrafo{
+            font-size: 18px;
+        }
+    }
+
     .card-eventos{
         flex-direction: column-reverse;
         &__img{
             width: 60%;
         }
+    }
+
+    .parrafo{
+        font-size: 18px;
     }
 
     .footerNav{
@@ -140,4 +156,10 @@
             }
         }
     }
+
+    /*TITULOS*/
+    h3{
+        font-size: 25px;
+    }
+
 }

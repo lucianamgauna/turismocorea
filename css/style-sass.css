@@ -173,7 +173,7 @@ h4 {
     .atractivos .atractivos__div .atractivos__parrafo {
       font-size: 18px; }
 
-.pSobreNosotros {
+.parrafo {
   margin: 30px;
   padding: 10px;
   font-size: 25px;
@@ -202,9 +202,6 @@ h4 {
 /*EVENTOS*/
 .eventos {
   margin: 30px; }
-  .eventos .eventos__h2 {
-    font-size: 50px;
-    text-align: center; }
   .eventos .eventos__parrafo {
     font-size: 20px;
     margin: 20px; }
@@ -335,12 +332,23 @@ h4 {
   .atractivos__img {
     width: 100%;
     padding: 2px; }
+  .m-5__titulo {
+    font-size: 25px; }
+  .m-5__subtitulo {
+    font-size: 20px; }
+  .m-5__parrafo {
+    font-size: 18px; }
   .card-eventos {
     flex-direction: column-reverse; }
     .card-eventos__img {
       width: 60%; }
+  .parrafo {
+    font-size: 18px; }
   .footerNav .footerNav__logo {
     width: 25%; }
   .footerNav div a img {
     width: 30px;
-    height: auto; } }
+    height: auto; }
+  /*TITULOS*/
+  h3 {
+    font-size: 25px; } }

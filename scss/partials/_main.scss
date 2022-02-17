@@ -118,7 +118,7 @@
 }
 
 
-.pSobreNosotros{
+.parrafo{
     @include mg;
     padding: 10px;
     font-size: 25px;
@@ -150,10 +150,6 @@
 /*EVENTOS*/
 .eventos{
     margin: 30px;
-    .eventos__h2{
-        font-size: 50px;
-        text-align: center;
-    }
     .eventos__parrafo{
         font-size: 20px;
         margin: 20px;
