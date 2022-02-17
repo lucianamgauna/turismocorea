@@ -144,6 +144,7 @@ h4 {
         width: 100%;
         border-radius: 10px; }
 
+/*CARD*/
 .card {
   background-color: #fce2aa;
   box-shadow: 7px 7px 13px -5px rgba(0, 0, 0, 0.68);
@@ -173,6 +174,7 @@ h4 {
     .atractivos .atractivos__div .atractivos__parrafo {
       font-size: 18px; }
 
+/*PARRAFO GENERICO*/
 .parrafo {
   margin: 30px;
   padding: 10px;
