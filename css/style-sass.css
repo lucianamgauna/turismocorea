@@ -191,6 +191,9 @@ h4 {
     .pagina-novedades .pagina-novedades__div .pagina-novedades__parrafo {
       font-size: 20px;
       line-height: 30px; }
+    .pagina-novedades .pagina-novedades__div .pagina-novedades__hr {
+      color: black;
+      margin: 10px; }
 
 /*ALOJAMIENTO*/
 .novedades--nuevo {
@@ -332,6 +335,10 @@ h4 {
   .atractivos__img {
     width: 100%;
     padding: 2px; }
+  .card-eventos {
+    flex-direction: column-reverse; }
+    .card-eventos__img {
+      width: 60%; }
   .footerNav .footerNav__logo {
     width: 25%; }
   .footerNav div a img {

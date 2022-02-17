@@ -114,10 +114,17 @@
             }
         }
     }
-    
+
     .atractivos__img {
         width: 100%;
         padding: 2px;
+    }
+
+    .card-eventos{
+        flex-direction: column-reverse;
+        &__img{
+            width: 60%;
+        }
     }
 
     .footerNav{
