@@ -165,9 +165,12 @@ h4 {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center; }
+  .atractivos .atractivos__img {
+    border-radius: 20px; }
   .atractivos .atractivos__div {
     background-color: #fce2aa;
     border: 2px solid gray;
+    border-radius: 20px;
     margin: 16px;
     padding: 10px;
     width: 70%; }

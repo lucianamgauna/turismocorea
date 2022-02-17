@@ -105,9 +105,13 @@
 /*ATRACTIVOS*/
 .atractivos{
     @include section;
+    .atractivos__img{
+        border-radius: 20px;
+    }
     .atractivos__div{
         background-color: $bgcolor;
         border: 2px solid gray;
+        border-radius: 20px;
         margin: 16px;
         padding: 10px;
         width: 70%;
