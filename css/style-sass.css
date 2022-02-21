@@ -179,12 +179,12 @@ h4 {
   align-items: center; }
   .pagina-novedades .pagina-novedades__div {
     margin: 30px; }
-    .pagina-novedades .pagina-novedades__div .pagina-novedades__parrafo {
-      font-size: 20px;
-      line-height: 30px; }
     .pagina-novedades .pagina-novedades__div .pagina-novedades__hr {
       color: black;
       margin: 10px; }
+  .pagina-novedades .pagina-novedades__div p {
+    font-size: 20px;
+    line-height: 30px; }
 
 /*ALOJAMIENTO*/
 .novedades--nuevo {
