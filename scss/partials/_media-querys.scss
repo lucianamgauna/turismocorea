@@ -1,5 +1,6 @@
 /*MEDIA QUERYS*/
 @media only screen and (max-width:1024px) {
+    /*HEADER/NAV*/
     .header {
         display: flex;
         flex-direction: column;
@@ -24,7 +25,7 @@
         }
     }
 
-
+    /*SECCIÓN NOVEDADES*/
     .novedades{
         .novedades__div{
             align-items: center;
@@ -36,15 +37,38 @@
             }
         }
     }
-
+/*PARRAFO*/
     .parrafo{
         font-size: 18px;
     }
 }
 
-
+@media only screen and (max-width: 768px) {
+    .novedades__div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /*EVENTOS HTML*/
+    .contenedor-eventos{
+        &__titulo{
+            padding:10px;
+        }
+        .card-eventos{
+            padding: 0px;
+            flex-direction: column
+        }
+    }
+    /*CARD - INDEX*/
+    .card-body{
+        padding:0;
+    }
+    .btn-w {
+        width: 80%;
+    }
+}
 
 @media only screen and (max-width: 320px) {
+    /*HEADER/NAV*/
     .header {
         padding: 0;
         justify-content: space-between;
@@ -69,7 +93,7 @@
             }
         }
     }
-
+    /*H1-INDEX*/
     .entrada{
         width: 54vh;
         .entrada__titulo {
@@ -78,7 +102,7 @@
         margin: 10px;
         }
     }
-
+    /*SECCIÓN IMAGENES - INDEX*/
     .secciones{
         .seccion-imagen {
             margin: 10px;
@@ -91,7 +115,7 @@
                 }
         }
     }
-
+    /*SECCIÓN NOVEDADES*/
     .novedades {
         margin: 10px;
         padding: 10px;
@@ -114,13 +138,24 @@
             }
         }
     }
+    /*ATRACTIVOS HTML*/
     .atractivos{
         .atractivos__div{
-            width:90%;
+            width:100%;
+        .atractivos__parrafo{
+            text-align: center;
+        }
         }
         .atractivos__img {
         width: 100%;
         padding: 2px;
+        }
+    }
+    /*NOVEDADES HTML*/
+    .pagina-novedades{
+        margin: 9px;
+        .pagina-novedades__div{
+            margin: 2px;
         }
     }
 
@@ -135,7 +170,7 @@
             font-size: 18px;
         }
     }
-    
+    /*CARD HTML*/
     .btn-w{
         width: 69%;
     }
@@ -145,11 +180,12 @@
             width: 60%;
         }
     }
-
+    /*PARRAFO*/
     .parrafo{
         font-size: 18px;
+        margin:0px;
     }
-
+    /*FOOTER*/
     .footerNav{
         .footerNav__logo{
             width: 25%;
@@ -165,6 +201,13 @@
     }
 
     /*TITULOS*/
+    h1{
+        font-size: 30px;
+        margin: 13px;
+    }
+    h2{
+        font-size: 25px;
+    }
     h3{
         font-size: 25px;
     }

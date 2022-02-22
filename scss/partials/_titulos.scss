@@ -34,8 +34,3 @@ h3{
 }
 
 
-@for $i from 1 through 4{
-    h#{$i} {
-        font-size: $i * 2;
-    }
-}

@@ -102,7 +102,7 @@
     width: 50%;
 }
 
-/*ATRACTIVOS*/
+/*ATRACTIVOS HTML*/
 .atractivos{
     @include section;
     .atractivos__img{
@@ -129,12 +129,11 @@
     text-align: center;
 }
 
-/*NOVEDADES*/
+/*NOVEDADES HTML*/
 .pagina-novedades{
     @include section;
     .pagina-novedades__div{
         margin: 30px;
-
         .pagina-novedades__hr{
             color: black;
             margin: 10px;
@@ -146,13 +145,13 @@
         }
 }
 
-/*ALOJAMIENTO*/
+/*ALOJAMIENTO HTML*/
 .novedades--nuevo{
     @extend.novedades;
     margin-bottom: 30px;
 }
 
-/*EVENTOS*/
+/*EVENTOS HTML*/
 .eventos{
     margin: 30px;
     .eventos__parrafo{
@@ -163,10 +162,15 @@
 
 .contenedor-eventos{
     width: 100%;
-    .card-eventos{
-    padding: 20px;
-    margin: 10px;
     background-color: beige;
+    .contenedor-eventos__titulo{
+        font-size: 30px;
+        margin: 20px;
+        padding-top: 10px;
+    }
+    .card-eventos{
+    padding: 10px;
+    margin: 10px;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -177,10 +181,6 @@
         }
         .card-eventos__text{
         margin: 30px;
-            .card-eventos__titulo{
-                font-size: 30px;
-                margin: 20px;
-            }
             .card-eventos__p{
                 font-size: 20px;
                 line-height: 30px;
