@@ -32,8 +32,17 @@
         }
         .contenedor-novedades{
             .contenedor-novedades__img{
-                width: 100%;
+                width: 17em;
                 height: 30%;
+            }
+        }
+    }
+
+    /*EVENTOS HTML*/
+    .contenedor-eventos{
+        .card-eventos{
+            &__img{
+                width: 15em;
             }
         }
     }
@@ -48,6 +57,13 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
+    /*ATRACTIVOS HTML*/
+    .atractivos{
+        &__div{
+            width: 100%!important;
+        }
+    }
     /*EVENTOS HTML*/
     .contenedor-eventos{
         &__titulo{
@@ -55,7 +71,10 @@
         }
         .card-eventos{
             padding: 0px;
-            flex-direction: column
+            flex-direction: column;
+            &__img{
+                width: 15em;
+            }
         }
     }
     /*CARD - INDEX*/
@@ -67,7 +86,7 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
     /*HEADER/NAV*/
     .header {
         padding: 0;
@@ -95,7 +114,6 @@
     }
     /*H1-INDEX*/
     .entrada{
-        width: 54vh;
         .entrada__titulo {
         font-size: 25px;
         word-spacing: 5px;
@@ -111,18 +129,18 @@
             justify-content: flex-end;
                 .seccion-imagen__img {
                     margin-bottom: 5px;
-                    width: 75%;
+                    width: 13em;
                 }
         }
     }
     /*SECCIÓN NOVEDADES*/
     .novedades {
-        margin: 10px;
         padding: 10px;
         &__div{
             display: flex;
             flex-direction: column;
             .info{
+                margin: 0;
                 .info__list{
                     padding: 0px;
                     margin: 8px;
@@ -147,8 +165,7 @@
         }
         }
         .atractivos__img {
-        width: 100%;
-        padding: 2px;
+        width: 16em;
         }
     }
     /*NOVEDADES HTML*/
@@ -159,6 +176,7 @@
         }
     }
 
+    /*ALOJAMIENTO*/
     .m-5{
         &__titulo{
             font-size: 25px;
@@ -170,14 +188,21 @@
             font-size: 18px;
         }
     }
-    /*CARD HTML*/
+
+
+    /*BOTON HTML*/
     .btn-w{
         width: 69%;
+    }
+
+    /*EVENTOS HTML*/
+    .eventos{
+        margin: 0px;
     }
     .card-eventos{
         flex-direction: column-reverse;
         &__img{
-            width: 60%;
+            width: 15em;
         }
     }
     /*PARRAFO*/
@@ -207,6 +232,8 @@
     }
     h2{
         font-size: 25px;
+        margin: 0;
+        margin-bottom: 10px;
     }
     h3{
         font-size: 25px;
